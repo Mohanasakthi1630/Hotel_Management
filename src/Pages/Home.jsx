@@ -27,9 +27,12 @@ export default function Home() {
           StayEase offers a comfortable place to relax and enjoy
           your stay.
         </p>
-        <Link to="/about" className="text-link">
+        <button>
+          <Link to="/about" className="text-link">
           Learn More About Us
         </Link>
+        </button>
+        
       </section>
 
      
